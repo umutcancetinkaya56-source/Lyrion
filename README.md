@@ -1,0 +1,1 @@
+cd ~/hash_tool && python3 hash.py & wait $! && git init && git add . && git commit -m "V0.2 - Temiz sürüm" && git remote add origin https://github.com/KullaniciAdi/DevHashTool.git && git branch -M main && git push -u origin main
